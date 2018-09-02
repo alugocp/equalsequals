@@ -1,0 +1,10 @@
+.person{
+  position:absolute;
+  z-index:-1;
+}
+
+.person.peach{
+  left:calc(100% - 100px);
+  height:200px;
+  top:500px;
+}
