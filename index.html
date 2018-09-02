@@ -1,0 +1,147 @@
+<!DOCTYPE html><html><head><!-- Built with WebStatic v1 -->
+	<meta charset="utf-8">
+	<title>EqualsEquals Hackathon</title>
+	<script src="jquery.min.js"></script>
+	<script src="scrolling.js"></script>
+	<link rel="stylesheet" href="values.css">
+	<link rel="stylesheet" href="content-box.css">
+	<link rel="stylesheet" href="people.css">
+</head>
+<body>
+	<div class="component navbar"><img class="icon" src="images/earth.svg">
+<span class="headers">
+  <span class="head" dest="about">About</span> |
+  <span class="head" dest="sponsors">Sponsors</span> |
+  <span class="head">Schedule</span>
+</span>
+
+<style>
+
+  .navbar{
+    --img-rad:calc(var(--img-side) / 2);
+    z-index:1;
+    padding:var(--img-pad) 0;
+    background-color:var(--green);
+    color:var(--dkGreen);
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:var(--navbar-font);
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+  }
+
+  .component.navbar .icon{
+    cursor:pointer;
+    position:absolute;
+    height:auto;
+    width:var(--img-side);
+    left:var(--img-pad);
+    top:calc(var(--navbar-h) - var(--img-rad));
+    border:solid 2px var(--gray);
+    border-radius:100%;
+  }
+  .component.navbar .headers{
+    --left:calc(var(--img-side) + calc(var(--img-pad) * 2));
+    width:calc(100% - var(--left));
+    position:relative;
+    left:var(--left);
+  }
+
+  .component.navbar .head{
+    cursor:pointer;
+    color:white;
+  }
+
+</style>
+</div>
+	<div class="component logo-space"><img src="images/banner.svg">
+
+<style>
+
+  .logo-space{
+    position:absolute;
+    top:var(--navbar-h);
+    padding:var(--logo-padding) 0;
+    text-align:center;
+    width:100%;
+    left:0;
+  }
+  .component.logo-space img{
+    height:var(--logo-h);
+    width:auto;
+  }
+
+</style>
+</div>
+	<div class="content">
+		<div class="content-box" id="about">
+			<h1>EqualsEquals Hackathon</h1>
+			<span>(What is EqualsEquals?)</span>
+			<table><tbody><tr>
+				<td>
+					<img class="icon" src="images/laptop.svg"><br>
+					Equals Equals is a new kind of hackathon meant to introduce and expose underrepresented minorities to careers in technology and technology entrepreneurship. It&apos;s kind of like a design sprint and a hackathon had a baby, and it&apos;s name was Equals Equals.
+				</td><td>
+					<img class="icon" src="images/send.svg"><br>
+					Community and inclusion breeds innovation, excitement, and motivation to solve some pretty tough problems.
+				</td><td>
+					<img class="icon" src="images/public.svg"><br>
+					Our hope is that this event will not only get underrepresented groups excited about technology and it&apos;s capabilities, but also about the impact it can have on the issues and communities that they are most passionate about.
+				</td>
+			</tr></tbody></table><br>
+			<p>EqualsEquals was founded by our benevolent ruler Sean:</p>
+			<img class="profile" src="images/sean.jpg">
+		</div>
+		<div class="content-box" id="sponsors">
+			<h1>Sponsors</h1>
+			<span>(And now a word from our sponsors)</span><br>
+			<span>Our top sponsors are the following:</span>
+			<div>
+				<img class="sponsor" src="sponsors/google.png">
+				<img class="sponsor" src="sponsors/doGoodChallenge.jpg">
+				<img class="sponsor" src="sponsors/mlh.png">
+				<img class="sponsor" src="sponsors/see.jpg">
+			</div>
+			<span>Or click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a> to see our full sponsors list</span>
+		</div>
+		<div class="component footer"><img src="images/landscape.jpg">
+<div class="signature">
+    Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
+    Website by <a href="http://alexlugo.net/webdesign">Alex Lugo</a>
+</div>
+
+<style>
+
+  .component.footer .signature{
+    text-align:center;
+    margin-top:-6px;
+    font-family:sans-serif;
+    background-color:black;
+    color:var(--white);
+    font-size:18px;
+    padding:5px;
+    width:100%;
+    left:0;
+  }
+  .component.footer img{
+    max-height:300px;
+    width:100%;
+  }
+  .component.footer a{
+    transition:color 0.2s ease;
+    text-decoration:none;
+    color:var(--blue);
+  }
+  .component.footer a:hover{
+    color:var(--dkBlue);
+  }
+
+</style>
+</div>
+	</div>
+	<img class="person peach" src="people/peach.jpeg">
+
+
+</body></html>
