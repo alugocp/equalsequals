@@ -1,8 +1,10 @@
 <!DOCTYPE html><html><head><!-- Built with WebStatic v1 -->
-	<meta charset="utf-8">
 	<title>EqualsEquals Hackathon</title>
+	<meta charset="utf-8">
 	<script src="jquery.min.js"></script>
 	<script src="scrolling.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
 	<link rel="stylesheet" href="values.css">
 	<link rel="stylesheet" href="content-box.css">
 	<link rel="stylesheet" href="people.css">
@@ -58,17 +60,15 @@
 
 </style>
 </div>
-	<div class="component logo-space"><img src="images/banner.svg">
+	<div class="container content">
+		<div class="row component logo-space"><img src="images/banner.svg">
 
 <style>
 
   .logo-space{
-    position:absolute;
-    top:var(--navbar-h);
     padding:var(--logo-padding) 0;
     text-align:center;
-    width:100%;
-    left:0;
+    position:relative;
   }
   .component.logo-space img{
     height:var(--logo-h);
@@ -77,11 +77,10 @@
 
 </style>
 </div>
-	<div class="content">
-		<div class="register">
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Register</a>
+		<div class="row" style="text-align:center">
+			<a class="register" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Register</a>
 		</div>
-		<div class="content-box" id="about">
+		<div class="row content-box" id="about">
 			<h1>EqualsEquals Hackathon</h1>
 			<span>(What is EqualsEquals?)</span>
 			<table><tbody><tr>
@@ -100,7 +99,7 @@
 			<img src="images/sean.jpg" style="border-radius:25px;height:200px;width:auto">
 		</div>
 
-		<div class="content-box" id="schedule">
+		<div class="row content-box" id="schedule">
 			<img class="content-icon" src="images/schedule.svg" title="Make time for EqualsEquals!">
 			<h1>Schedule</h1>
 			<p>
@@ -185,7 +184,7 @@
 			<img class="person nicholas-lugo" src="people/nicholas-lugo.svg">
 		</div>
 
-		<div class="content-box" id="staff">
+		<div class="row content-box" id="staff">
 			<h1>Staff</h1>
 			<span>(The nerds who made this possible)</span>
 			<div class="component profiles"><h2>Administration:</h2>
@@ -207,7 +206,7 @@
 </div>
 		</div>
 
-		<div class="content-box" id="sponsors">
+		<div class="row content-box" id="sponsors">
 			<img class="content-icon" src="images/thumb_up.svg" title="Thank you sponsors!">
 			<h1>Sponsors</h1>
 			<span>(And now a word from our sponsors)</span>
@@ -222,7 +221,7 @@
 			<span>Or click <a href="sponsors">here</a> to see our full sponsors list</span>
 		</div>
 
-		<div class="content-box" id="contact">
+		<div class="row content-box" id="contact">
 			<h2 style="text-align:center;margin-top:20px">Find us on social media!</h2>
 			<div class="component social-media"><table>
   <tbody><tr>
@@ -266,7 +265,7 @@
 </div>
 		</div>
 
-		<div class="component footer"><img src="images/landscape.jpg">
+		<div class="row component footer"><img src="images/landscape.jpg">
 <div class="signature">
     Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
     Website by <a href="http://alexlugo.net/webdesign">Alex Lugo</a>
