@@ -6,6 +6,7 @@
   left:0;
 }
 .content-box{
+  position:relative;
   background-color:white;
   color:var(--gray);
   font-family:sans-serif;
