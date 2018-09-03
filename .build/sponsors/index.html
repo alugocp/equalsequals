@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head><!-- Built with WebStatic v1 -->
   <meta charset="utf-8">
-	<title>EqualsEquals Hackathon</title>
+	<title>EqualsEquals Sponsors</title>
 	<script src="../jquery.min.js"></script>
 	<script src="../scrolling.js"></script>
   <link rel="stylesheet" href="../values.css">
@@ -11,7 +11,7 @@
   <div class="component headbar"><a href=".." title="Main page">
   <img class="icon" src="../images/earth.svg">
 </a>
-<span class="title">Sponsors</span>
+<span class="title"></span>
 
 <style>
 
@@ -44,6 +44,9 @@
 
 </style>
 </div>
+  <script>
+    $(".headbar .title").text("Sponsors");
+  </script>
   <div class="content content-sponsors">
     <div class="content-box">
       <h1>Google</h1>
@@ -91,6 +94,40 @@
         <img src="../sponsors/see.jpg" title="SEE">
       </a>
     </div>
+    <div class="component footer"><img src="../images/landscape.jpg">
+<div class="signature">
+    Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
+    Website by <a href="http://alexlugo.net/webdesign">Alex Lugo</a>
+</div>
+
+<style>
+
+  .component.footer .signature{
+    text-align:center;
+    margin-top:-6px;
+    font-family:sans-serif;
+    background-color:black;
+    color:var(--white);
+    font-size:18px;
+    padding:5px;
+    width:100%;
+    left:0;
+  }
+  .component.footer img{
+    max-height:300px;
+    width:100%;
+  }
+  .component.footer a{
+    transition:color 0.2s ease;
+    text-decoration:none;
+    color:var(--blue);
+  }
+  .component.footer a:hover{
+    color:var(--dkBlue);
+  }
+
+</style>
+</div>
   </div>
 
 

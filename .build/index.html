@@ -11,8 +11,10 @@
 	<div class="component navbar"><img class="icon" src="images/earth.svg">
 <span class="headers">
   <span class="head" dest="about">About</span> |
+  <span class="head" dest="schedule">Schedule</span> |
+  <span class="head" dest="staff">Staff</span> |
   <span class="head" dest="sponsors">Sponsors</span> |
-  <span class="head">Schedule</span>
+  <span class="head" dest="contact">Contact</span>
 </span>
 
 <style>
@@ -94,18 +96,158 @@
 			<p>EqualsEquals was founded by our benevolent ruler Sean:</p>
 			<img class="profile" src="images/sean.jpg">
 		</div>
+
+		<div class="content-box" id="schedule">
+			<img class="content-icon" src="images/schedule.svg" title="Make time for EqualsEquals!">
+			<h1>Schedule</h1>
+			<p>
+				Here&apos;s our official schedule for the 2018 EqualsEquals hackathon event:
+			</p><br>
+			<div class="component schedule"><table>
+  <tbody><tr>
+    <td>9am</td>
+    <td>Sign In/Registration</td>
+  </tr>
+  <tr>
+    <td>10am</td>
+    <td>Opening Ceremony</td>
+  </tr>
+  <tr>
+    <td>11am</td>
+    <td>Coding Basics - Chidi Udeze</td>
+  </tr>
+  <tr>
+    <td>12pm</td>
+    <td>Lunch</td>
+  </tr>
+  <tr>
+    <td>1pm</td>
+    <td>Zuri Hunter - Being a DC Tech Professional</td>
+  </tr>
+  <tr>
+    <td>2pm</td>
+    <td>AR Demo - Soumya Pattanayak and Brian McDevitt</td>
+  </tr>
+  <tr>
+    <td>3pm</td>
+    <td>Building Twitter Bots - Tami Olafunmiloye</td>
+  </tr>
+  <tr>
+    <td>4pm</td>
+    <td>Intro to Networking - Luis Pavon</td>
+  </tr>
+  <tr>
+    <td>5pm</td>
+    <td>Machine Learning with Python - Brian Servia</td>
+  </tr>
+  <tr>
+    <td>6pm</td>
+    <td>Dinner</td>
+  </tr>
+  <tr>
+    <td>7pm</td>
+    <td>Hacking Ends Soon</td>
+  </tr>
+  <tr>
+    <td>8pm</td>
+    <td>Closing Ceremony and Awards</td>
+  </tr>
+  <tr>
+    <td>9pm</td>
+    <td>End of Event</td>
+  </tr>
+</tbody></table>
+
+<style>
+
+.component.schedule table{
+  box-shadow:-1px 1px 2px var(--gray);
+  border-spacing:0;
+  text-align:left;
+  width:100%;
+}
+.component.schedule td{
+  padding:2px;
+}
+.component.schedule tr:not(:last-of-type) td{
+  border-bottom:solid 1px var(--gray);
+}
+.component.schedule tr:nth-of-type(2n){
+  background-color:#e5e5e5;
+}
+
+</style>
+</div>
+			<p>* subject to change</p>
+		</div>
+
+		<div class="content-box" id="staff">
+			<h1>Staff</h1>
+			<span>(The nerds who made this possible)</span>
+			<div>
+				Kawaii faces coming soon
+			</div>
+		</div>
+
 		<div class="content-box" id="sponsors">
+			<img class="content-icon" src="images/thumb_up.svg" title="Thank you sponsors!">
 			<h1>Sponsors</h1>
-			<span>(And now a word from our sponsors)</span><br>
-			<span>Our top sponsors are the following:</span>
+			<span>(And now a word from our sponsors)</span>
+			<h2>Top donations:</h2>
 			<div>
 				<img class="sponsor" src="sponsors/google.png">
 				<img class="sponsor" src="sponsors/doGoodChallenge.jpg">
 				<img class="sponsor" src="sponsors/mlh.png">
 				<img class="sponsor" src="sponsors/see.jpg">
 			</div>
+			<br>
 			<span>Or click <a href="sponsors">here</a> to see our full sponsors list</span>
 		</div>
+
+		<div class="content-box" id="contact">
+			<h2 style="text-align:center;margin-top:20px">Find us on social media!</h2>
+			<div class="component social-media"><table>
+  <tbody><tr>
+    <td>
+      <a href="https://twitter.com/_EqualsEquals">
+        <img src="images/twitter.svg" title="Twitter">
+      </a>
+    </td>
+    <td>
+      <a href="https://www.facebook.com/equalsequalshackathon/">
+        <img src="images/facebook.svg" title="Facebook">
+      </a>
+    </td>
+    <td>
+      <a href="https://www.instagram.com/_equalsequals/">
+        <img src="images/instagram.svg" title="Instagram">
+      </a>
+    </td>
+    <td>
+      <a href="mailto:hackequalsequals@gmail.com">
+        <img src="images/email.svg" title="Email">
+      </a>
+    </td>
+  </tr>
+</tbody></table>
+
+<style>
+
+.social-media{
+  text-align:center;
+}
+.component.social-media table{
+  width:100%;
+}
+.component.social-media img{
+  height:auto;
+  width:75px;
+}
+
+</style>
+</div>
+		</div>
+
 		<div class="component footer"><img src="images/landscape.jpg">
 <div class="signature">
     Hackathon by <a href="https://www.facebook.com/profile.php?id=100002143700798">Sean Brown</a> |
@@ -140,8 +282,8 @@
 
 </style>
 </div>
+		<img class="person peach" src="people/peach.jpeg">
 	</div>
-	<img class="person peach" src="people/peach.jpeg">
 
 
 </body></html>
