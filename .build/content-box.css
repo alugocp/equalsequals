@@ -1,7 +1,7 @@
 /* .content and .content-box */
 .content{
   position:absolute;
-  top:calc(var(--navbar-h) + var(--logo-h) + calc(var(--logo-padding) * 2));
+  top:calc(var(--navbar-h) + var(--logo-padding));
   width:100%;
   left:0;
 }
@@ -17,26 +17,25 @@
   box-shadow:-2px 2px var(--dkBlue);
   border:solid 2px var(--dkBlue);
 }
+
+/* .register button */
 .register{
+  display:inline-block;
   transition:background-color 0.2s ease;
   background-color:var(--green);
   border-radius:25px;
-  text-align:center;
-  width:300px;
   padding:20px;
   margin:auto;
   margin-bottom:50px;
   cursor:pointer;
-}
-.register:hover{
-  background-color:var(--dkGreen);
-}
-.register a{
   font-family:sans-serif;
   text-decoration:none;
   font-weight:bold;
   font-size:50px;
   color:white;
+}
+.register:hover{
+  background-color:var(--dkGreen);
 }
 
 /* .content-box general children */

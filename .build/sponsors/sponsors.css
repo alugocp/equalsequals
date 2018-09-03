@@ -1,6 +1,3 @@
-.content.content-sponsors{
-  top:calc(var(--navbar-h) + var(--logo-padding));
-}
 .content.content-sponsors .content-box{
   margin-bottom:100px;
 }
