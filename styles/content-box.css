@@ -16,6 +16,27 @@
   box-shadow:-2px 2px var(--dkBlue);
   border:solid 2px var(--dkBlue);
 }
+.register{
+  transition:background-color 0.2s ease;
+  background-color:var(--green);
+  border-radius:25px;
+  text-align:center;
+  width:300px;
+  padding:20px;
+  margin:auto;
+  margin-bottom:50px;
+  cursor:pointer;
+}
+.register:hover{
+  background-color:var(--dkGreen);
+}
+.register a{
+  font-family:sans-serif;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:50px;
+  color:white;
+}
 
 /* .content-box general children */
 .content-box .content-icon{
