@@ -3,14 +3,12 @@
   z-index:-1;
 }
 
-.person.peach{
-  left:calc(100% - 100px);
-  height:200px;
-  top:500px;
-}
 .person.nicholas-lugo{
-  /* ratio: 1.77 h/w */
   width:100px;
   left:-52px;
   top:-130px;
+}
+.person.waving{
+  height:150px;
+  right:0;
 }
