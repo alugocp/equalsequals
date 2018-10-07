@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="542.35639"
-     inkscape:cy="449.07906"
+     inkscape:cx="627.14282"
+     inkscape:cy="395.88706"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -139,5 +139,27 @@
        id="rect894"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.45833397px;line-height:1.25;font-family:Catamaran;-inkscape-font-specification:'Catamaran Bold';letter-spacing:0px;word-spacing:0px;fill:#ff5c53;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="92.108734"
+       y="188.02875"
+       id="text872"><tspan
+         sodipodi:role="line"
+         id="tspan870"
+         x="92.108734"
+         y="188.02875"
+         style="font-size:26.45833397px;fill:#ff5c53;fill-opacity:1;stroke-width:0.26458332">EqualsEquals</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Catamaran;-inkscape-font-specification:'Catamaran Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="139.5629"
+       y="282.61728"
+       id="text903"><tspan
+         sodipodi:role="line"
+         id="tspan901"
+         x="139.5629"
+         y="292.08936"
+         style="stroke-width:0.26458332" /></text>
   </g>
 </svg>
