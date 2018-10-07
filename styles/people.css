@@ -12,3 +12,8 @@
   height:150px;
   right:0;
 }
+.person.thumbs-up{
+  height:200px;
+  top:-200px;
+  right:25px;
+}
