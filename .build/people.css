@@ -8,6 +8,17 @@
   left:-52px;
   top:-130px;
 }
+.person.computer{
+  right:200px;
+  height:75px;
+  top:-75px;
+}
+.person.black-girl{
+  transform:translateY(-50%);
+  width:15%;
+  left:-22%;
+  top:80%;
+}
 .person.waving{
   width:8%;
   right:0;
@@ -16,6 +27,11 @@
   height:200px;
   top:-200px;
   right:25px;
+}
+.person.sleeping{
+  height:50px;
+  top:-50px;
+  left:5px;
 }
 .person.asian-girl{
   transform:translateY(-50%);
