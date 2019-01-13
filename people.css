@@ -33,9 +33,20 @@
   top:-50px;
   left:5px;
 }
+.person.redhead{
+  width:15%;
+  right:-25%;
+  top:50%;
+}
 .person.asian-girl{
   transform:translateY(-50%);
   width:15%;
   left:-19%;
   top:50%;
+}
+.person.meditating{
+  z-index:auto;
+  right:200px;
+  height:225px;
+  top:-200px;
 }
