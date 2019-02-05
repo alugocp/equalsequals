@@ -19,7 +19,7 @@
 }
 
 /* .register button */
-.register{
+/*.register{
   display:inline-block;
   transition:background-color 0.2s ease;
   background-color:var(--green);
@@ -36,7 +36,7 @@
 }
 .register:hover{
   background-color:var(--dkGreen);
-}
+}*/
 
 /* .content-box general children */
 .content-box .content-icon{
